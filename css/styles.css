@@ -1,0 +1,85 @@
+html {
+  font-family: sans-serif;
+
+}
+
+body {
+  background-image: url("E:/OneDrive/Web Develepment bootcamp/Guess the number game/images/numbers.png");
+  background-color: #DDDDDD;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+
+}
+
+h1 {
+  font-size: 4rem;
+  text-shadow: 0 0 5px #7DCE13;
+  text-shadow: 0 0 10px #100F0F;
+}
+
+
+.gamecontainer {
+  font-size: 1.8rem;
+  color: #fff;
+  line-height: 1.5;
+  max-width: 800px;
+  min-width: 480px;
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  text-shadow: 0 0 5px #7DCE13;
+  text-shadow: 0 0 10px #100F0F;
+}
+
+.form input[type="number"] {
+  width: 200px;
+}
+
+.guessField {
+  font-size: 1.8rem;
+}
+
+
+.lastResult {
+  color: inherit;
+
+}
+
+/* Buttons */
+
+button {
+  background-color: #3CCF4E;
+  font-weight: bold;
+  color: black;
+  padding: 10px 16px;
+  font-size: 1.5rem;
+  border-radius: .5rem;
+  transition: all .15s cubic-bezier(0.4,0,0.2,1);
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #94B49F;
+}
+
+.submitbutton {
+    background-color: #76BA99;
+    font-weight: bold;
+    color: black;
+    padding: 10px 16px;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    transition: all .15s cubic-bezier(0.4,0,0.2,1);
+    border: none;
+    cursor: pointer;
+  }
+
+  .submitbutton:hover {
+    background-color: #3CCF4E;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
