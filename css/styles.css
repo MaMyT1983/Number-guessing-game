@@ -87,6 +87,7 @@ button:hover {
 @media (max-width: 1028px) {
    .gamecontainer {
      width: 70%;
+     height: 100%;
    }
 }
 
