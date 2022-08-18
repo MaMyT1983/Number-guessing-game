@@ -105,17 +105,17 @@ button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto;
-    padding: 3%;
+    padding: 5%;
     text-align: center;
     height: 1600px;
   }
 
   .heading {
-    font-size: 5rem;
+    font-size: 6rem;
   }
 
   p {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .enteritem {
