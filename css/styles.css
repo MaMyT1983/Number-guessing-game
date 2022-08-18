@@ -99,32 +99,32 @@ button:hover {
    }
 
    body {
-     background-image: url("https://github.com/MaMyT1983/Number-guessing-game/blob/main/images/numbers_blue_high.jpg?raw=true");
-     background-color: #DDDDDD;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 1000px;
-     margin: auto;
-     text-align: center;
+    background-image: url("E:/OneDrive/Web Develepment bootcamp/Guess the number game/images/numbers_blue_vh.jpg");
+    background-color: #DDDDDD;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    padding: 3%;
+    text-align: center;
+    height: 1600px;
+  }
 
-   }
-  
-    h1 {
+  .heading {
     font-size: 5rem;
   }
 
   p {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
+  .enteritem {
+    padding: 15px;
+  }
 
-   .enteritem {
-     padding: 15px;
-   }
-
-   .form input[type="number"] {
-     width: 60%;
-   }
-
+  .form input[type="number"] {
+    width: 50%;
+  }
+  
 }
+
