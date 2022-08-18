@@ -109,14 +109,19 @@ button:hover {
     text-align: center;
     height: 1600px;
   }
-
-  .heading {
-    font-size: 6rem;
+  
+    button {
+     font-size: 3rem;
   }
 
-  p {
+    p {
     font-size: 3rem;
   }
+  
+  
+  .heading {
+    font-size: 6rem;
+  }  
 
   .enteritem {
     font-size: 3rem;
