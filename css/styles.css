@@ -4,12 +4,13 @@ html {
 }
 
 body {
-  background-image: url("https://github.com/MaMyT1983/Number-guessing-game/blob/main/images/numbers_blue.jpg?raw=true");
+  background-image: url("E:/OneDrive/Web Develepment bootcamp/Guess the number game/images/numbers_blue.jpg");
   background-color: #DDDDDD;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin: auto;
+  padding: 2%;
   text-align: center;
   width: 100%;
 
@@ -17,10 +18,12 @@ body {
 
 h1 {
   font-size: 4rem;
+  padding-bottom: 30px;
   text-shadow: 0 0 5px #7DCE13;
   text-shadow: 0 0 10px #100F0F;
 }
 
+/* Containers */
 
 .gamecontainer {
   font-size: 1.8rem;
@@ -29,14 +32,18 @@ h1 {
   max-width: 800px;
   min-width: 480px;
   margin: 0 auto;
-  width: 50%;
+  width: 60%;
   text-align: center;
   text-shadow: 0 0 5px #7DCE13;
   text-shadow: 0 0 10px #100F0F;
 }
 
 .form input[type="number"] {
-  width: 200px;
+  width: 100%;
+}
+
+.rules {
+  padding-bottom: 10px;
 }
 
 .guessField {
@@ -46,7 +53,6 @@ h1 {
 
 }
 
-
 .lastResult {
   color: inherit;
 
@@ -55,9 +61,9 @@ h1 {
 /* Buttons */
 
 button {
-  background-color: #3CCF4E;
+  background-color: #AF7AB3;
   font-weight: bold;
-  color: black;
+  color: #fff;
   padding: 10px 16px;
   font-size: 1.5rem;
   border-radius: .5rem;
@@ -67,7 +73,7 @@ button {
 }
 
 button:hover {
-  background-color: #94B49F;
+  background-color: #80558C;
 }
 
 .submitbutton {
@@ -93,16 +99,22 @@ button:hover {
    }
 
    body {
-     background-image: url("https://github.com/MaMyT1983/Number-guessing-game/blob/main/images/numbers_blue_high.jpg?raw=true");
+     background-image: url("E:/OneDrive/Web Develepment bootcamp/Guess the number game/images/numbers_blue_vh.jpg");
      background-color: #DDDDDD;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      margin: auto;
      text-align: center;
-     width: 100%;
 
    }
+
+   .enteritem {
+     padding: 15px;
+   }
+
+   .form input[type="number"] {
+     width: 60%;
+   }
+
 }
-
-
